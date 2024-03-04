@@ -11,38 +11,54 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+/*Stringhe : sono una sequenza di lettere o numeri racchiusi tra virgolette/apici singoli o doppi tipo: "cane", 'topo' ecc.
+ se scrivo "10" verrà interpretata come una sequenza di caratteri, quindi non avrà un valore numerico ma di stringa
+
+ Numeri : possono essere numeri interi 10 o decimali 3.19 o negativi -10, e sono senza apici/virgolette
+
+booleani: Ci sono due variabili e sono true e false, anche loro come i numeri, non vogliono apici.
+per esempio se scrivo se ti piace correre?  e dico si, diventerà true, se dici no diventa false*/
+
+ 
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let myName = 'Sean'
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let a = 12
+let b = 20
+let c = a + b 
+console.log (a+b)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+let x = 12 
+console.log (risultato)
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+var y= 12
+var risultato = x - 4
+
+console.log(risultato) // stampa il risultato della sottrazzione
+
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -50,4 +66,8 @@ REGOLE
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = 'john'
+let name2 = 'John'
+
+let sonoDiversi = name1 !== name2
+console.log(sonoDiversi)
